@@ -1,0 +1,144 @@
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.container .code {
+	float:left;
+	width:600px;
+}
+.container .control {
+	float:left;
+	width:400px;
+}
+body {
+  background-color: #eaf1f4;
+  font-size: 67.5%;
+  font-family: Helvetica, Tahoma, Verdana, sans-serif;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+.container header {
+  font-family: 'ChunkFive Regular', Arial, sans-serif;
+  font-size: 6em;
+  color: #527699;
+  margin: 25px 0;
+}
+.container header .subtitle {
+  font-size: 0.5em;
+  color: #aabfd4;
+  text-shadow: none;
+}
+
+.container header .challenge {
+  font-size: 0.4em;
+  color: #aabf04;
+  text-shadow: none;
+}
+
+.container article .challenge {
+  font-size: 2em;
+  margin-top:10px;
+  color: #555500;
+  text-shadow: none;
+}
+.container article.main {
+  float: left;
+  overflow:hidden;
+}
+
+.container footer {
+  clear: both;
+  margin: 25px 0;
+}
+.container h3 {
+  font-family: 'ChunkFive Regular', Tahoma, Helvetica;
+  font-size: 2em;
+  color: #999999;
+  font-weight: normal;
+  padding-top: 20px;
+  text-shadow: 1px 1px 1px #ffffff;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 15px;
+	border: 2px solid darkblue;
+}
+
+input, label  {
+	font-size: 2.5em;
+	margin: 5px
+}
+
+.control {
+    color: #555500;
+    border: 2px solid darkblue;
+    margin-left: 20px;
+    padding:20px;
+}
+
+.number {
+    background-color: #E4F794;
+    box-shadow: 5px 5px 5px #888888;
+    padding-bottom:3px;
+}
+
+.instructions {
+		margin-left:20px;
+}
+
+.explanation {
+	font-size:1.25em;
+}
+
+.explanation li {
+	margin-left:20px;
+	margin-bottom: 5px;
+}
+
+.explanation p {
+  line-height: 1.3em;
+}
+
+button {
+	margin: 22.5px;
+	font-size: 2em;
+	padding: 5px;
+	background-color: #E4F794;
+}
+
+#reset {
+	margin-left: 120px;
+}
+
+#reveal {
+	background-color:transparent;
+	margin-left:80px;
+}
+
+#secretSlider {
+	margin: 5px;
+	}
+	
+#secretValue {
+	width: 2em;
+	margin 0 auto;
+}
+	
+.flipper {
+  width: 100px;
+  height: 60px;
+  margin: 5px; 
+  line-height: 50px;
+  background-color: #ff9000;
+  font-family: 'ChunkFive Regular', Tahoma, Helvetica;
+  font-size: 2.5em;
+  color: #ffffff;
+  text-align: center;
+}
